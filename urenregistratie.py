@@ -25,10 +25,10 @@ def main():
     print("Welkom bij het urenregistratiesysteem.")
     while True:
         keuze = input("Wil je je uren registreren? (ja/nee): ").lower()
-        if keuze == 'ja':
+        if keuze == 'ja' or keuze == 'j':
             naam, datum, gewerkte_uren, project = vragen_stellen()
             gegevens_opslaan(naam, datum, gewerkte_uren, project)
-        elif keuze == 'nee':
+        elif keuze == 'nee' or keuze == 'n':
             print("Bedankt voor het gebruik van het urenregistratiesysteem.")
             break
         else:
