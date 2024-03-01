@@ -1,6 +1,6 @@
-# Urenregistratie
+## Urenregistratie Applicatie
 
-Dit script is ontworpen om een eenvoudige urenregistratie bij te houden. Het stelt gebruikers in staat om hun gewerkte uren per dag in te voeren en genereert een overzicht van de totale gewerkte uren in een excelsheet.
+Deze applicatie is ontworpen om het proces van het registreren van gewerkte uren te vereenvoudigen. Het stelt gebruikers in staat om hun naam, de datum, het aantal gewerkte uren en het project waar ze aan hebben gewerkt in te voeren via de command prompt. De ingevoerde gegevens worden vervolgens opgeslagen in een CSV-bestand voor latere verwerking, zoals importeren in een database.
 
 ## Installatie
 
@@ -18,7 +18,19 @@ Dit script is ontworpen om een eenvoudige urenregistratie bij te houden. Het ste
     ```
 
 4. Volg de instructies op het scherm om uw gewerkte uren in te voeren.
-5. Het script genereert een overzicht van de totale gewerkte uren per als een excelsheet.
+5. Het script genereert een overzicht van de totale gewerkte uren als een excelsheet bestand genaamd urenregistratie.csv.
+
+## Vereisten
+
+Python 3.x
+
+## Opmerkingen
+
+Zorg ervoor dat je de juiste gegevens invoert wanneer daarom wordt gevraagd om nauwkeurige registratie te garanderen.
+
+Het bestand urenregistratie.csv wordt automatisch aangemaakt als het nog niet bestaat in dezelfde map als de Python-code(urenregistratie-applicatie).
+
+Je kunt dit CSV-bestand later importeren in een database of verder verwerken naar eigen inzicht.
 
 ## Bijdragen
 
